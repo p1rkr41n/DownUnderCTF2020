@@ -6,7 +6,7 @@ STRING you end up with after solving challenge --> Spaces seperate the words
 NO DUCTF{} required
 
 ## Attachments
-###### gumtrees.wav
+###### [gumtrees.wav](https://github.com/SamIsland/writeups/blob/master/koala%20habitat/gumtrees.wav)
 
 ## Solution
 
