@@ -62,7 +62,7 @@ s.
 
 ## Solution
 After taking a look at `data` i noticed the bottom sentence `I am just glad that you know how to use pickle`.
-At this point i knew that pickle was required to decode the data, so i wrote this simple script:
+Considering that and the challenge name, i knew that pickle was required to decode the data, so i wrote this simple script:
 
 ```python3
 #!/usr/bin/python3
