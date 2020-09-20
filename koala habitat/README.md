@@ -11,3 +11,15 @@ NO DUCTF{} required
 ## Solution
 
 After playing `gumtrees.wav` i heard a morse code encoded message in the background, so i opened the file with Sonic Visualiser and analyzed it with a spectrogram.
+
+![morsecode](https://github.com/SamIsland/writeups/blob/master/koala%20habitat/morsecode.png)
+
+Now i was able to clearly see the encoded message, so i proceeded to decode it using [this translator](https://morsecode.world/international/translator.html).
+
+The code: 
+```
+-.-. .- .-. .- -- . .-.. .-.. --- / -.- --- .- .-.. .- ... / .- .-. . / - .... . / -... . ... - / -.- --- .- .-.. .- ...
+```
+
+Translated morse code:
+`CARAMELLO KOALAS ARE THE BEST KOALAS`
