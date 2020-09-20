@@ -14,7 +14,7 @@ After playing `gumtrees.wav` i heard a morse code encoded message in the backgro
 
 ![morsecode](https://github.com/SamIsland/writeups/blob/master/koala%20habitat/morsecode.png)
 
-Now i was able to clearly see the encoded message, so i proceeded to decode it using [this translator](https://morsecode.world/international/translator.html).
+At this point i was able to clearly see the encoded message, so i proceeded to decode it using [this translator](https://morsecode.world/international/translator.html).
 
 The code: 
 ```
