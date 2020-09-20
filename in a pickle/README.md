@@ -61,7 +61,7 @@ s.
 ```
 
 ## Solution
-After taking a look at `data.txt` i noticed the bottom sentence `I am just glad that you know how to use pickle`.
+After taking a look at `data` i noticed the bottom sentence `I am just glad that you know how to use pickle`.
 At this point i knew that pickle was required to decode the data, so i wrote this simple script:
 
 ```python3
@@ -75,6 +75,24 @@ with open('data', 'rb') as f:
     unpack = pickle.load(f)
 
 print(unpack)
+```
+
+Output:
+```
+{1: 'D', 2: 'UCTF', 3: '{', 4: 112, 5: 49, 6: 99, 7: 107, 8: 108, 9: 51, 10: 95, 11: 121, 12: 48, 13: 117, 14: 82, 15: 95, 16: 109, 17: 51, 18: 53, 19: 53, 20: 52, 21: 103, 22: 51, 23: '}', 24: "I know that the intelligence agency's are onto me so now i'm using ways to evade them: I am just glad that you know how to use pickle. Anyway the flag is "}
+```
+The unpacked data was a dictionary with some of its value being integers, so i tried converting those `int` to `char`.
+To do that i modified the previous code:
+
+```python3
+#!/usr/bin/python3
+
+import pickle
+
+flag = ""
+
+with open('data', 'rb') as f:
+    unpack = pickle.load(f)
 
 for i in range(1, len(unpack)):
     try:
@@ -84,5 +102,4 @@ for i in range(1, len(unpack)):
 
 print(flag)
 ```
-
-The output was: `DUCTF{p1ckl3_y0uR_m3554g3}`
+Output: `DUCTF{p1ckl3_y0uR_m3554g3}`
