@@ -1,4 +1,9 @@
 # In a pickle - MISC - 200pts.
+## Description
+We managed to intercept communication between und3rm4t3r and his hacker friends.
+However it is obfuscated using something.
+We just can't figure out what it is.
+Maybe you can help us find the flag?
 
 ## Attachments
 ###### data
