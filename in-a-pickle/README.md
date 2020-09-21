@@ -6,7 +6,7 @@ We just can't figure out what it is.
 Maybe you can help us find the flag?
 
 ## Attachments
-###### [data](https://github.com/SamIsland/writeups/blob/master/in%20a%20pickle/data)
+###### [data](https://github.com/SamIsland/writeups/blob/master/in-a-pickle/data)
 ```
 (dp0
 I1
