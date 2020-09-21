@@ -13,4 +13,4 @@ After hearing `message_1.wav` i tried to analyze its spectrum with Sonic Visuali
 
 It was pretty much unreadable so i tried tweaking some settings to enhance it a bit.
 
-![settings]()
+![settings](https://github.com/SamIsland/writeups/blob/master/on-the-spectrum/settings.PNG)
