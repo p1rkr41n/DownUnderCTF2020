@@ -14,3 +14,9 @@ After hearing `message_1.wav` i tried to analyze its spectrum with Sonic Visuali
 It was pretty much unreadable so i tried tweaking some settings to enhance it a bit.
 
 ![settings](https://github.com/SamIsland/writeups/blob/master/on-the-spectrum/settings.PNG)
+
+A this point the image was clear enough to read the flag.
+
+![flag](https://github.com/SamIsland/writeups/blob/master/on-the-spectrum/flag.png)
+
+flag: `DUCTF{m4by3_n0t_s0_h1dd3n}`
